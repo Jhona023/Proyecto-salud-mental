@@ -1,0 +1,76 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas de atención</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      input:focus,
+      select:focus,
+      textarea:focus {
+        color: #2e004f;
+        border-color: #6a0dad;
+        outline: none;
+      }
+    </style>
+</head>
+<body>
+  <nav class="menu">
+    <ul>
+      <li><a href="red-de-apoyo-a-genero.html" class="activo">Red de Apoyo</a></li>
+      <li><a href="violenciadegenero.html" class="activo">Violencia de Género</a></li>
+      <li><a href="violentometro.html" class="activo">Violentómetro</a></li>
+      <li><a href="rutasdeapoyo.html" class="activo">Rutas de atención</a></li>
+      <li><a href="buscasorientacion.html" class="activo">¿Buscas orientación Psicológica?</a></li>
+    </ul>
+  </nav>
+
+  <h1>¡Hola! Cuentas con nosotros, deja tus datos para contactarte</h1>
+
+  <form action="" method="post">
+    <label for="nombre">Nombre Completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" name="correo" required>
+    <br><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" min="1" max="120">
+    <br><br>
+
+    <p>Género:</p>
+    <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+    <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+    <label><input type="radio" name="genero" value="otro"> Otro</label>
+    <br><br>
+
+    <label for="barrio">Barrio:</label>
+    <select id="barrio" name="barrio" required>
+        <option value="">--Selecciona--</option>
+        <option value="mr">Manrique</option>
+        <option value="sj">San Javier</option>
+        <option value="cs">Castilla</option>
+        <option value="bl">Bello</option>
+        <option value="it">Itagüí</option>
+        <option value="en">Envigado</option>
+    </select>
+    <br><br>
+
+    <button class="btn">Enviar información</button>
+    <br><br>
+
+    <h1>Orientación Profesional:</h1>
+    <ul>
+      <li>Juan Diego Tobón B.</li>
+      <li>Psicólogo</li>
+      <li>Tarjeta Profesional #: 000000</li>
+    </ul>
+
+    <br>
+    <input type="submit" value="Enviar formulario">
+  </form>
+</body>
+</html>
+
