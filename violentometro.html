@@ -1,0 +1,63 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas de atención</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <nav class="menu">
+        <!--la etiqueta nav: es utilizada para crear botón de inicio-->
+         <ul>
+            <li><a href="red-de-apoyo-a-genero.html" class="activo"> Red de Apoyo</a></li>
+            <!--la etiqueta a: lleva a un hipervinvulo-->
+            <!--El #: se utiliza para llevar a la misma parte-->
+            <!--La etiqueta href: espacio para poner hipervinculo ó lugar donde desea redirigir-->   
+            <li><a href="violenciadegenero.html" class="activo"> Violencia de Género</a></li>
+            <li><a href="violentometro.html" class="activo"> Violentometro</a></li>
+            <li><a href="rutasdeapoyo.html" class="activo"> Rutas de atención</a></li>
+            <li><a href="buscasorientacion.html" class="activo"> ¿Buscas orientación Psicológica?</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br>
+
+<div id="content-wrapper">
+
+    <div id="juego-principal">
+        <h2>VIOLENTÓMETRO INTERACTIVO</h2>
+        <p><strong>Responde "SI" o "NO" a las siguientes situaciones.</strong></p>
+
+        <button id="btn-iniciar" style="width: 50%; margin: 20px auto; display: block; padding: 15px; font-size: 1.2em; background-color: #6A1B9A; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            INICIAR TEST
+        </button>
+
+        <div id="juego-container">
+            <div id="pregunta-container"></div>
+            <div class="opciones">
+                <button id="btn-si">SI</button>
+                <button id="btn-no">NO</button>
+            </div>
+        </div>
+
+        <div id="resultado-container" style="display: none;">
+
+        </div>
+            <button id="btn-reiniciar" style="width: 50%; margin: 20px auto; display: block; padding: 15px; font-size: 1.2em; background-color: #6A1B9A; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                REINICIAR TEST
+            </button>
+            
+        </div>
+
+    </div>
+    <br><br>
+    <img class="imagen-violentometro" src="imagenes/Violentometro.png" alt="Violentómetro">
+
+    <br><br>
+
+    <script src="juego.js"></script>
+</div>
+</body>
+</html>
