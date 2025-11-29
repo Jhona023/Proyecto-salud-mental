@@ -1,0 +1,137 @@
+.menu {
+    background-color: #d8a8d8; /* Lila */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    opacity: 0.8;
+    z-index: 9999;
+}
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(255, 255, 255, 0.531);
+    text-align: center;
+    border-radius: 50px;
+    
+ 
+  }
+  body {
+    margin: 0;
+    font-family: Georgia, serif;
+    padding-top: 120px;
+    background-image: url(imagenes/Que-es-la-violencia-de-genero-y-como-se-manifiesta2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    margin-right: 0 50px;
+
+}
+.menu a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease, font-weight 0.3s ease; 
+}
+
+/*Efecto al pasar por el mouse*/
+.menu a:hover{
+    background-color: purple;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+/* 1. The container that holds both image and text */
+.service-card {
+    display: flex;           /* This puts the image and text in a row */
+    align-items: center;     /* Centers them vertically */
+    margin-bottom: 30px;     /* Space between different sections */
+    background-color: #f9f9f9a8; /* Optional: just to see the card area */
+    padding: 10px;
+}
+
+/* 2. Styling the image */
+.side-image {
+    width: 650px;           /* Set a fixed width */
+    height: 500px;          /* Set a fixed height */
+    object-fit: cover;      /* Ensures image doesn't stretch weirdly */
+    border-radius: 20px;
+    margin-right: 20px;     /* Creates space between image and text */
+}
+
+/* 3. Styling the text area */
+.text-info {
+    display: flex;
+    flex-direction: column; /* Stacks the links and phone number vertically */
+    justify-content: center;
+}
+
+/* Main container for each image+text pair */
+.service-card {
+    display: flex;           /* Places image and text in a row */
+    align-items: center;     /* Centers them vertically */
+    margin-bottom: 30px;     /* Space between sections */
+    padding: 10px;
+    background-color: transparent; /* Makes the background see-through */
+}
+
+/* Styling for all side images */
+/* Existing base style for all images */
+.side-image {
+    width: 850px;
+    height: 500px; /* standard height */
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+/* NEW modifier class just for Casa de Justicia images */
+/* Put this BELOW the .side-image rule */
+.casa-justicia-tall {
+    height: 1200px; /* Overrides the 500px height */
+   
+    /* You could also change width here if you wanted, e.g., width: 700px; */
+}
+
+
+/* Container for the text links and paragraphs */
+.text-info {
+    display: flex;
+    flex-direction: column; /* Stacks text elements vertically */
+    justify-content: center;
+    background-color: #d8a8d8;
+    padding: 10px;
+    /* Optional: Add a background color to the text area only, to make it readable */
+    /* background-color: rgba(255, 255, 255, 0.7); */ 
+    /* padding: 15px; */
+    /* border-radius: 10px; */
+}
+
+/* Optional: Style the links and paragraphs for better readability */
+.text-info a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff; /* Example: White text to pop against a dark background */
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.text-info p {
+    color: #ffffff; /* Example: Light gray for paragraph text */
+    margin: 5px 0;
+}
