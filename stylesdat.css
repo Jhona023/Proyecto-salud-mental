@@ -1,0 +1,489 @@
+
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    padding-top: 120px;
+    background-image: url(imagenes/Que-es-la-violencia-de-genero-y-como-se-manifiesta2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.menu {
+    background-color: #d8a8d8; /* Lila */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    opacity: 0.8;
+    z-index: 9999;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    margin-right: 0 50px;
+
+}
+.menu a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease, font-weight 0.3s ease; 
+}
+
+/*Efecto al pasar por el mouse*/
+.menu a:hover{
+    background-color: purple;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+
+.Title{
+  margin: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: justify;
+  align-items: center;
+  color: #ffffff;
+  font-size: 17px;
+  background-color: #6A1B9A;
+  opacity: 0.7;
+
+}
+
+
+
+.container-datos{
+  margin: 2%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.Tab-Comp-VG{
+  display: flex;
+  padding: 2%;
+  gap: 30px;
+  height: 200px;
+  width: 95%;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja1{
+  padding: 2px;
+}
+
+#imagen1 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+#imagen1:hover{
+  transform: scale(0.95) rotate(-2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto1 {
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    width: auto;
+    height: 70%;
+    color: white;
+    background-color: #6A1B9A;
+    opacity: 0.7;
+}
+#texto1:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+
+
+
+.Diag-Caso-Cont{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2%;
+  gap: 0px;
+  height: auto;
+  width: 95%;
+  border-color: black;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja2{
+  padding: 2px;
+
+}
+
+#imagen2 {
+  display: flex; 
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); 
+}
+#imagen2:hover{
+  transform: scale(0.95) rotate(2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto2 {
+    display: flex;
+    padding: 100px;
+    font-size: 20px;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: #6A1B9A;
+    opacity: 0.7;
+}
+#texto2:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+
+
+.Cifras-Nales{
+  display: flex;
+  padding: 2%;
+  gap: 30px;
+  height: auto;
+  width: 95%;
+  border-color: black;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja3{
+  padding: 2px;
+
+}
+
+#imagen3 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+#imagen3:hover{
+  transform: scale(0.95) rotate(-2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto3 {
+    display: flex;
+    padding: 50px;
+    font-size: 20px;
+    text-align: justify;
+    align-items: center;
+    color: white;
+    width: auto;
+    height: 30%;
+    background-color: #6A1B9A;
+    opacity: 0.7;
+}
+#texto3:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+
+.VA-2024-2025{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2%;
+  gap: 10px;
+  height: auto;
+  width: 95%;
+  border-color: black;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja4{
+  padding: 2px;
+
+}
+
+#imagen4 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+#imagen4:hover{
+  transform: scale(0.95) rotate(2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto4 {
+    display: flex;
+    padding: 50px;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    width: auto;
+    height: 5px;
+    align-items: center;
+    background-color:#6A1B9A;
+    opacity: 0.7;
+}
+#texto4:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+
+
+.VP-2024-2025{
+  display: flex;
+  padding: 2%;
+  gap: 50px;
+  height: auto;
+  width: 95%;
+  border-color: black;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja5{
+  padding: 2px;
+
+}
+
+#imagen5 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+#imagen5:hover{
+  transform: scale(0.95) rotate(-2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto5 {
+    display: flex;
+    padding: 50px;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    align-items: center;
+    height: 50%;
+    background-color:#6A1B9A;
+    opacity: 0.7;
+}
+#texto5:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+
+.VG-Ciudades{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2%;
+  gap: 10px;
+  height: auto;
+  width: 95%;
+  border-color: black;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja6{
+  padding: 2px;
+
+}
+
+#imagen6 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+#imagen6:hover{
+  transform: scale(0.95) rotate(2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto6 {
+    display: flex;
+    padding: 5px;
+    font-size: 17px;
+    text-align: justify;
+    color: white;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color:#6A1B9A;
+    opacity: 0.7;
+}
+#texto6:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#imagen6-1 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);   
+  }
+#imagen6-1:hover{
+  transform: scale(0.95) rotate(-2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+
+
+.VIF-comparativo{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2%;
+  gap: 20px;
+  height: auto;
+  width: 95%;
+  border-color: black;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja8{
+  padding: 2px;
+
+}
+
+#imagen8 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+#imagen8:hover{
+  transform: scale(0.95) rotate(2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto8 {
+    display: flex;
+    padding: 75px;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    background-color: #6A1B9A;
+    opacity: 0.7;
+}
+#texto8:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+.VIF-Contexto{
+  display: flex;
+  padding: 2%;
+  gap: 30px;
+  height: auto;
+  width: 95%;
+  border-color: black;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja9{
+  padding: 2px;
+
+}
+
+#imagen9 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+#imagen9:hover{
+  transform: scale(0.95) rotate(-2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto9 {
+    display: flex;
+    padding: 75px;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    align-items: center;
+    height: 90px;
+    width: auto;
+    background-color:#6A1B9A;
+    opacity: 0.7;
+}
+#texto9:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+
+
+.VIF-GrupoEdad{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2%;
+  gap: 30px;
+  height: auto;
+  width: 95%;
+  border-color: black;
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#caja10{
+  padding: 2px;
+
+}
+
+#imagen10 {
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+#imagen10:hover{
+  transform: scale(0.95) rotate(2deg);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+#texto10 {
+    display: flex;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    align-items: center;
+    height: 90%;
+    width: auto;
+    background: linear-gradient(transparent, rgba(0,0,0,0.5));
+    background-color: #6A1B9A;
+    opacity: 0.7;
+}
+#texto10:hover{
+  transform:translateY(-7px);
+  box-shadow: 1px 1px 5px 5px #ffffff;
+}
+
+
+
+
